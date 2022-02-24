@@ -1013,7 +1013,7 @@ Responsividade
 */
 
 
-@media (min-width:450px) and (max-width:800px) {
+@media (min-width:540px) and (max-width:800px) {
     .menu-opener {
         display: block;
         width: 45px;
@@ -1104,6 +1104,129 @@ Responsividade
         width: auto;
     }
 
+}
+
+@media (min-width:450px) and (max-width:540px) {
+    .logo {
+        margin-left: 150px;
+    }
+
+    .section-services {
+        flex-wrap: wrap;
+    }
+
+    .section-service {
+        min-width: 100vw;
+        margin-bottom: 30px
+    }
+    
+    .section-projects--filters {
+        margin: 15px;
+    }
+
+    .section-projects--filters li {
+        display: flex;
+    }
+
+    .section-team {
+        max-width: 280px;   
+    }
+
+    .section-companies--area {
+        flex-wrap: wrap;
+    }
+    
+    .section-company {
+        min-width: 50%;
+        margin-bottom: 20px;
+    }
+    
+    .section-price {
+        flex-wrap: wrap;
+    }
+
+    .section-price--item {
+        min-width: calc(100% - 100px);
+        margin-bottom: 20px;
+        margin-left: 25px;
+    }
+
+    .section-price--item:last-child {
+        margin-right: 18px;
+    }
+
+    .section-premium .slidearea {
+        flex-direction: column;
+    }
+
+    .section-premium--left {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .section-premium--right {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .section-facts {
+        flex-wrap: wrap;
+    }
+
+    .section-fact {
+        min-width: 100%;
+    }
+
+    .section-map {
+        padding: 0;
+        padding-bottom: 250px;
+    }
+
+    .section-map--info-item {
+        margin-bottom: 20px;
+    }
+
+    .section-map--info-item:last-child {
+        margin-bottom: 0px;
+    }
+
+    .section-map--area {
+        width: auto;
+    }
+
+    .section-map--info {
+        width: auto;
+    }
+
+    .footer--area {
+        flex-direction:column;
+    }
+
+    .footer--area1 {
+        margin: auto;
+    }
+
+    .footer-socialup {
+        margin-bottom: 10px;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    #footer-socialdown {
+        margin: auto;
+    }
+
+    .footer--area2 {
+        margin: auto;
+        margin-left: 80px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .footer--area3 {
+        margin: auto;
+    }
 }
 
 @media (max-width:450px) {
