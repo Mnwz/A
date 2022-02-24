@@ -233,7 +233,7 @@ Framework
 }
 
 .footer-socialup a {
-    background-color: #717171;
+    background-color: #fff;
     width: 30px;
     height: 30px;
     border-radius: 15px;
@@ -301,6 +301,10 @@ Framework
 .envio {
     display: flex;
     justify-content: center;
+}
+
+.button {
+    cursor: pointer;
 }
 
 /* 
